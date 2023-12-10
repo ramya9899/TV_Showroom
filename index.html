@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TV Show Room</title>
+        <link rel="stylesheet" type="text/css" href="./index.css"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <script src="https://kit.fontawesome.com/4d89cc9152.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+    <body>
+        <!------------------- Nav Bar Design ------------------------>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark text-light  position-sticky top-0">
+            <div class="container mb-2">
+                <h3>TV Show Room</h3>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav">
+                    <span class="navbar-toggler-icon fs-4"></span>
+                </button>
+                <!--------------------- Menu Bar Design --------------------------->
+                <div class="collapse navbar-collapse" id="mynav">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item p-3 nav-menu"><a href="#home" class="menu ">Home</a></li>
+                        <li class="nav-item p-3 nav-menu"><a href="#about" class="menu">About</a></li>
+                        <li class="nav-item p-3 nav-menu"><a href="#product" class="menu">Product</a></li>
+                        <li class="nav-item p-3 nav-menu"><a href="#contact" class="menu">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!------------------------------- Home Page Design---------------->
+        <div class="home" id="home">
+            <div class="home-content" data-aos="fade-up">
+                <h1 class="heading">The TV SHOP</h1>
+                <p>is a Sub unit of Alkhaaliq Shopping Zone</p>
+                <p>We the TV Shop sell Finnes quality LED TV in very affordable price.</p>
+                <p>Our LED Range starts from 2999/- (Prices may fluctuate buy our TV won't)</p>
+                <button class="buy"><a href="./product.html">BUY NOW</a></button>
+            </div>
+            <div class="home-image"></div>
+        </div>
+        <!---------------------------- About Page ------------------------------>
+        <div class="about" id="about">
+            <div class="about-content" data-aos="fade-right">
+                <h2 class=" heading1">ABOUT US</h2>
+                <p>LED TVs are more energy-efficient as these models use light-emitting diodes (LED) for backlighting. These TVs consume less power as compared to Cold Cathode Fluorescent Lamps (CCFL), which most LCD TVs use.
+                    <br/><br/>You won't get the same excellent dark room picture quality as an OLED, but LED TVs have a few advantages compared to OLEDs (check out our article about OLED vs. LED). LED TVs' biggest advantage is their brightness, which allows them to get brighter than OLEDs, and they're immune to permanent burn-in.   
+                </p>
+            </div>    
+            <div class="about-img">
+                 <img class="offer" src="./images/offer1.png">
+            </div>                                                                                                     
+        </div>
+        <!------------------------- Product Page --------------------------->
+        <div class="product p-5" id="product">
+            <h1 class="heading1">OUR PRODUCTS</h1>
+            <div class="product-card">
+                <div class="card-design" data-aos="fade-down-left">
+                    <img src="./images/index1.jpg" class="tv" alt="index">
+                    <h3>INDEX</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, maxime.</p>
+                    <div class="flex">
+                        <i  class="fa-solid fa-star icon" onclick="icon()"></i>
+                        <i  class="fa-solid fa-star icon" onclick="icon()"></i>
+                        <i  class="fa-solid fa-star icon" onclick="icon()"></i>
+                        <i  class="fa-solid fa-star icon" onclick="icon()"></i>
+                        <i class="fa-regular fa-star icon" onclick="icon()"></i>
+                    </div>
+                    <button class="buy"><a href="./product.html">BUY NOW</a></button>
+                </div>
+                <div class="card-design" data-aos="fade-down">
+                    <img src="./images/sony.jpg" class="tv" alt="sony">
+                    <h3>SONY</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, molestias.</p>
+                    <div class="flex">
+                        <i  class="fa-solid fa-star icon1" onclick="icon1()"></i>
+                        <i  class="fa-solid fa-star icon1" onclick="icon1()"></i>
+                        <i  class="fa-solid fa-star icon1" onclick="icon1()"></i>
+                        <i  class="fa-solid fa-star icon1" onclick="icon1()"></i>
+                        <i class="fa-regular fa-star icon1" onclick="icon1()"></i>
+                    </div>
+                    <button class="buy"><a href="./product.html">BUY NOW</a></button>
+                </div>
+                <div class="card-design" data-aos="fade-down-right">
+                    <img src="./images/lg.jpg" class="tv" alt="lg">
+                    <h3>LG</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, neque.</p>
+                    <div class="flex">
+                        <i  class="fa-solid fa-star icon2" onclick="icon2()"></i>
+                        <i  class="fa-solid fa-star icon2" onclick="icon2()"></i>
+                        <i  class="fa-solid fa-star icon2" onclick="icon2()"></i>
+                        <i  class="fa-solid fa-star icon2" onclick="icon2()"></i>
+                        <i class="fa-regular fa-star icon2" onclick="icon2()"></i>
+                    </div>
+                    <button class="buy"><a href="./product.html">BUY NOW</a></button>
+                </div>
+            </div>
+        </div>
+        <!------------------------------- Footer Page ------------------------->
+        <div class="footer" id="contact">
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <h4>Visit Us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, sapiente.</p>
+                <p>2, Elizabath, Landon, UK.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <h4>Call Us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, sapiente.</p>
+                <p>+44 33 2456 67788</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <h4>Contact Us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, sapiente.</p>
+                <p>www.gmail.com</p>
+            </div>
+        </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>

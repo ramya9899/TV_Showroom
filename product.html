@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TV Show Room</title>
+        <link rel="stylesheet" type="text/css" href="./index.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <script src="https://kit.fontawesome.com/4d89cc9152.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="login">
+            <h1 class="heading">TV Show Room</h1>
+                <form name="f1" data-aos="fade-down">
+                    <label>Your Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                    <input type="text" class="pe-5 ps-1" name="name"><br><br/>
+                    <label>Your Address &nbsp;&nbsp;&nbsp;&nbsp;:</label> 
+                    <input type="text" class="pe-5 ps-1" name="address"><br><br/>
+                    <label>Number of Pies&nbsp;:</label>
+                    <input type="text" class="pe-5 ps-1" name="pies"><br>
+                    <h2 id="heading1"> <span id="numerr" ></span></h2><br>
+                    
+                    <label>Brand Name : &nbsp;</label><select name="brd">
+                    
+                    <option value="sony">Sony</option>
+                    <option value="lg">LG</option>
+                    <option value="index">Index</option>
+                    </select> <br><br>
+                    
+                    <label>Size : </label><br>
+                    
+                    <input type="radio" name="size1" value="32" >
+                    <label for="32">32-inch</label><br>
+                    <input type="radio" name="size1" value="48">
+                    <label for="48">48-inch</label><br>
+                    <input type="radio" name="size1" value="others">
+                    <label for="other">others</label><br>
+                    <h3 id="heading1"> <span id="number" ></span></h3><br>
+            
+                    <label>Model :&nbsp; </label><select name="model">
+                    
+                    <option value="LED">LED</option>
+                    <option value="OLED">OLED</option>
+                    <option value="QLED">QLED</option>
+                    </select> <br><br>
+                    <button id="sub" class="buy" type="submit" onClick='return validate();'>Submit</button>
+                </form>
+            </div>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>
